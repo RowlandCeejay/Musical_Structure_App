@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeStyle">
+
+    <LinearLayout
+        android:id="@+id/Linear_Header"
+        style="@style/LinearHorizontalStyle">
+        <Button
+            android:id="@+id/songs_button"
+            style="@style/ButtonStyle1"
+            android:text="@string/Songs_Header"/>
+        <Button
+            android:id="@+id/player_button"
+            style="@style/ButtonStyle1"
+            android:text="@string/Player_Header" />
+
+        <Button
+            android:id="@+id/search_button"
+            style="@style/ButtonStyle1"
+            android:text="@string/Search_Header"/>
+        <Button
+            android:id="@+id/premium_button"
+            style="@style/ButtonStyle1"
+            android:text="@string/Premium_Header"/>
+    </LinearLayout>
+</RelativeLayout>

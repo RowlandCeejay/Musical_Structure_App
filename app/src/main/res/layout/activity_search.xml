@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollViewStyle"
+    android:background="@drawable/concert"
+    tools:context="com.example.android.musical_structure_app.SearchActivity">
+    <LinearLayout
+        android:id="@+id/outerLinear_search"
+        style="@style/outerLinearVerticalStyle">
+
+        <include
+            android:id="@+id/search_screen"
+            layout="@layout/header"/>
+
+        <TextView
+            android:id="@+id/search_info"
+            style="@style/TextStyle3"
+            android:text="@string/Search_info"/>
+
+        <include
+            android:id="@+id/search_edit_frame"
+            layout="@layout/search"/>
+
+    </LinearLayout>
+
+</ScrollView>

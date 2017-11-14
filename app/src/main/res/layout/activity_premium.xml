@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollViewStyle"
+    android:background="@drawable/radio"
+    tools:context="com.example.android.musical_structure_app.PremiumActivity">
+
+    <LinearLayout
+        android:id="@+id/outerLinear_premium"
+        style="@style/outerLinearVerticalStyle">
+
+        <include
+            android:id="@+id/premium_screen"
+            layout="@layout/header"/>
+
+        <TextView
+            android:id="@+id/premium_info"
+            style="@style/TextStyle3"
+            android:text="@string/Premium_info"/>
+
+        <Button
+            android:id="@+id/premium_button"
+            style="@style/buttonPremiumStyle"
+            android:text="@string/Premium_button"
+            android:drawableStart="@drawable/ic_payment"/>
+
+    </LinearLayout>
+</ScrollView>

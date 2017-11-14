@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeStyle">
+
+    <LinearLayout
+        android:id="@+id/outerLinear"
+        style="@style/LinearVerticalStyle">
+
+        <TextView
+            android:id="@+id/player_text"
+            style="@style/TextStyle1"
+            android:text="@string/Song1"/>
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            style="@style/SeekBarStyle" />
+
+        <LinearLayout
+            android:id="@+id/innerLayout1"
+            style="@style/LinearHorizontalStyle">
+
+            <Button
+                android:id="@+id/skip_prev_button"
+                style="@style/ButtonStyle1"
+                android:background="@drawable/ic_skip_previous" />
+
+            <Button
+                android:id="@+id/pause_button"
+                style="@style/ButtonStyle1"
+                android:background="@drawable/ic_pause" />
+
+            <Button
+                android:id="@+id/skip_next_button"
+                style="@style/ButtonStyle1"
+                android:background="@drawable/ic_skip_next" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/innerLayout2"
+            style="@style/LinearHorizontalStyle">
+
+            <Button
+                android:id="@+id/repeat_button"
+                style="@style/ButtonStyle1"
+                android:background="@drawable/ic_repeat" />
+            <Button
+                android:id="@+id/favorite_button"
+                style="@style/ButtonStyle1"
+                android:background="@drawable/ic_favorite" />
+            <Button
+                android:id="@+id/shuffle_button"
+                style="@style/ButtonStyle1"
+                android:background="@drawable/ic_shuffle" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

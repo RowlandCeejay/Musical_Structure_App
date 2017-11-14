@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Musical_Structure_App</string>
+
+    <string name="Player_Header">Player</string>
+    <string name="Search_Header">Search</string>
+    <string name="Songs_Header">Songs</string>
+    <string name="Premium_Header">Premium</string>
+    <string name="Premium_button">Subscribe</string>
+    <string name="Search_hint">Search Songs</string>
+    <string name="Search_suggestion">Suggestion:</string>
+
+    <string name="Category_main">Musical-Structure-App</string>
+    <string name="Category_player">Player</string>
+    <string name="Category_search">Search</string>
+    <string name="Category_premium">Premium</string>
+
+
+    <string name="Song1">Boyz II Men - End of the road</string>
+    <string name="Song2">Boyz II Men - Pass you by</string>
+    <string name="Song3">Celine Dion -All by myself</string>
+    <string name="Song4">Celine Dion -I am alive</string>
+    <string name="Song5">Celine Dion -Immortality</string>
+    <string name="Song6">Elton John - Sacrifice</string>
+
+    <string name="Songs_info">This screen doubles as the home screen and the songs screen.
+        It displays the songs in alphabetical order starting from A-Z. </string>
+
+    <string name="Player_info">This screen shows the currently playing song. It displays
+    the song that is being played at the moment at the bottom of the screen. It implements
+        the play back functionality using the android MediaPlayer class. It also plays songs via
+        the online cloud streaming platform https://www.soundcloud.com. It also displays the seekBar,
+        repeat, shuffle, skip-next, skip-previous, favorite, as well as the play/pause button for
+        easy usage and control.</string>
+
+    <string name="Search_info">This screen shows the search option of the project. It displays the search
+        option as well as the search suggestions with some songs attached to it. </string>
+
+    <string name="Premium_info">This screen shows the payment option. It displays the subscription button
+    which enables the user to become a paid member. Payment can be made via the android pay platform as well
+        as via paypal.com. Premium membership gives the user access to an unlimited stream of music via
+        the cloud streaming platform www.soundcloud.com </string>
+</resources>

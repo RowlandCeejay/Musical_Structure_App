@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="android_padding">4dp</dimen>
+    <dimen name="android_margin">5dp</dimen>
+    <dimen name="android_TextSize1">15sp</dimen>
+    <dimen name="android_Big_margin">120dp</dimen>
+    <dimen name="android_TextSize2">24sp</dimen>
+    <dimen name="android_TextPremium">50sp</dimen>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Musical-Player="http://schemas.android.com/apk/res-auto"
+    style="@style/LinearVerticalStyle">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_view"
+        style="@style/SearchStyle"
+        Musical-Player:queryHint="@string/Search_hint"
+        Musical-Player:iconifiedByDefault="false" />
+
+    <TextView
+        android:id="@+id/suggest_text"
+        style="@style/TextStyle2"
+        android:text="@string/Search_suggestion" />
+
+    <TextView
+        android:id="@+id/song1_text"
+        style="@style/TextStyle2"
+        android:text="@string/Song1"
+        android:drawableStart="@drawable/ic_music"/>
+
+    <TextView
+        android:id="@+id/song2_text"
+        style="@style/TextStyle2"
+        android:text="@string/Song2"
+        android:drawableStart="@drawable/ic_music"/>
+
+    <TextView
+        android:id="@+id/song3_text"
+        style="@style/TextStyle2"
+        android:text="@string/Song3"
+        android:drawableStart="@drawable/ic_music"/>
+
+
+</LinearLayout>

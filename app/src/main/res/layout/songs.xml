@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearVerticalStyle">
+
+    <TextView
+        android:id="@+id/songs_text1"
+        style="@style/TextStyle2"
+        android:text="@string/Song1"
+        android:drawableStart="@drawable/ic_music"/>
+
+    <TextView
+        android:id="@+id/songs_text2"
+        style="@style/TextStyle2"
+        android:text="@string/Song2"
+        android:drawableStart="@drawable/ic_music"/>
+
+    <TextView
+        android:id="@+id/songs_text3"
+        style="@style/TextStyle2"
+        android:text="@string/Song3"
+        android:drawableStart="@drawable/ic_music"/>
+
+    <TextView
+        android:id="@+id/songs_text4"
+        style="@style/TextStyle2"
+        android:text="@string/Song4"
+        android:drawableStart="@drawable/ic_music"/>
+
+    <TextView
+        android:id="@+id/songs_text5"
+        style="@style/TextStyle2"
+        android:text="@string/Song5"
+        android:drawableStart="@drawable/ic_music"/>
+
+    <TextView
+        android:id="@+id/songs_text6"
+        style="@style/TextStyle2"
+        android:text="@string/Song6"
+        android:drawableStart="@drawable/ic_music"/>
+
+</LinearLayout>

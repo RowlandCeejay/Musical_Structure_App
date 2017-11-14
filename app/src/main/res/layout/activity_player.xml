@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ScrollViewStyle"
+    android:background="@drawable/stereo"
+    tools:context="com.example.android.musical_structure_app.PlayerActivity">
+
+
+    <LinearLayout
+        android:id="@+id/outerLinear_main"
+        style="@style/outerLinearVerticalStyle">
+
+        <include
+            android:id="@+id/main_page1"
+            layout="@layout/header"/>
+
+        <TextView
+            android:id="@+id/main_info"
+            style="@style/TextStyle3"
+            android:text="@string/Player_info"/>
+
+        <include
+            android:id="@+id/main_page2"
+            layout="@layout/player"/>
+    </LinearLayout>
+
+</ScrollView>
+
